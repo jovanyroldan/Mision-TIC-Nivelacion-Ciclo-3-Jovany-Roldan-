@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Dosis:wght@300&family=Lora:wght@400;500&family=Montserrat+Alternates:wght@300&family=Mulish:wght@300&family=Varela+Round&family=Work+Sans:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    
+    <link rel="icon" type="image/jpg" href="/img/icono1.ico"/>
+</head>
+
+<body>
+    <!--cabecera de la pagina-->
+    <header>
+        <!--caja para logo-->
+        <div class="caja_logo">
+            <!--hipervinculo para la imagen-->
+            <a href="https://www.eltiempo.com" target="_blank">
+                <img src="/img/imagen.jpg">
+            </a>
+        </div>
+        <!--caja para el titulo-->
+        <div class="caja_titulo">
+            <h1 class="estilo_titulo">Biblioteca G19</h1>
+
+        </div>
+        <!--crear el menu-->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Contactos</a></li>
+              </ul>
+        </nav>
+    </header>
+    <br /><br />
+    <main>
+        <h2 id="formulario_titulo">INGRESAR LIBROS</h2>            
+        <!--crear el formulario-->
+        <form id="formulario">
+            <!--crear los campos para formulkario libros-->
+            
+            <label>Nombre libro</label>
+            <input  class="form-control" type="text" id="nombre" name="nombre" />
+            <br /><br />
+            <label>Editorial</label>
+            <input type="text" id="editorial" name="editorial" />
+            <br /><br />
+            <label>Autor</label>
+            <select id="autor" name="autor">
+                <option value="1">Gabriel Garcia Marquez</option>
+                <option value="2">Pablo Neruda</option>
+                <option value="3">Mario Benedetti</option>
+            </select>
+            <br /><br />
+            <input class="boton_formulario" type="button" value="Guardar" />
+            <input class="boton_formulario" type="button" value="Cancelar" />
+        </form>
+    </main>
+    <br /><br /><br />
+
+    <table>
+<!--        <colgroup span="4" class="columns"></colgroup>-->
+        <tr>
+          <th>Countries</th>
+          <th>Capitals</th>
+          <th>Population</th>
+          <th>Language</th>
+        </tr>
+        <tr>
+          <td>USA</td>
+          <td>Washington D.C.</td>
+          <td>309 million</td>
+          <td>English</td>
+        </tr>
+        <tr>
+          <td>Sweden</td>
+          <td>Stockholm</td>
+          <td>9 million</td>
+          <td>Swedish</td>
+        </tr>
+      </table>
+
+
+    <!-- aqui se va a colocar el logo , el titulo y el menu-->
+    <!--<div style="background-color: #C70039; height: 100px; width: 30%;">
+        <h1>titulo ejemplo 1</h1>
+    </div>-->
+    <!--formularios-->
+
+
+    <br /><br /><br />
+
+    <!--informacion del grupo, del proyecto, redes sociales-->
+    <footer>
+        <div class="caja1">
+            <div class="caja_superior">
+                <div class="caja_superior1">
+                    <h3>Attractions</h3>
+                </div>
+                <div class="caja_superior2">
+                    <span class="material-symbols-outlined">
+                        rocket_launch
+                    </span>
+                </div>
+            </div>
+            <div class="caja_media">
+                <div class="caja_media1">
+                        <p>Texto1</p>
+                        <p>Texto2</p>
+                        <p>Texto3</p>
+                </div>
+                <div class="caja_media2">
+                    <p>Texto4</p>
+                    <p>Texto5</p>
+                    <p>Texto6</p>
+
+                </div>
+
+            </div>
+            <div class="caja_inferior">
+                <input type="button" class="estilo_boton" value="More to see">
+            </div>
+        </div>
+        <div class="caja2">
+            <div class="caja_superior">
+                <div class="caja_superior1">
+                    <h3>Attractions</h3>
+                </div>
+                <div class="caja_superior2">
+                    <span class="material-symbols-outlined">
+                        potted_plant
+                        </span>
+                </div>
+            </div>
+            <div class="caja_media">
+                <div class="caja_media1">
+                        <p>Texto1</p>
+                        <p>Texto2</p>
+                        <p>Texto3</p>
+                </div>
+                <div class="caja_media2">
+                    <p>Texto4</p>
+                    <p>Texto5</p>
+                    <p>Texto6</p>
+
+                </div>
+
+            </div>
+            <div class="caja_inferior">
+                <input type="button" class="estilo_boton" value="More to see">
+            </div>
+            
+        </div>
+        <div class="caja3">
+            <div class="caja_superior">
+                <div class="caja_superior1">
+                    <h3>Attractions</h3>
+                </div>
+                <div class="caja_superior2">
+                    <span class="material-symbols-outlined">
+                        workspaces
+                    </span>
+                </div>
+            </div>
+            <div class="caja_media">
+                <div class="caja_media1">
+                        <p>Texto1</p>
+                        <p>Texto2</p>
+                        <p>Texto3</p>
+                </div>
+                <div class="caja_media2">
+                    <p>Texto4</p>
+                    <p>Texto5</p>
+                    <p>Texto6</p>
+
+                </div>
+
+            </div>
+            <div class="caja_inferior">
+                <input type="button" class="estilo_boton" value="More to see">
+            </div>
+            
+        </div>
+
+
+    </footer>
+
+    <br /><br /><br />
+
+</body>
+
+</html>
